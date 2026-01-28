@@ -4,7 +4,7 @@ import base.BaseTest;
 import org.junit.jupiter.api.Test;
 import pages.LoginPage;
 
-public class LoginTests extends BaseTest {
+public class LoginTests extends BaseTest {   // Login tests for saucedemo.com
 
     @Test
     void successfulLogin() {
