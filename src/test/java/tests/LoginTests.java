@@ -10,7 +10,7 @@ public class LoginTests extends BaseTest {
     void successfulLogin() {
         LoginPage loginPage = new LoginPage(driver);
         loginPage.login("standard_user", "secret_sauce");
-        assert loginPage.isLoginSuccessful();
+        assert loginPage.waitForSuccessfulLogin();
     }
     @Test
     void loginWithWrongPassword() {

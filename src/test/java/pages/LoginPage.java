@@ -24,9 +24,6 @@ public class LoginPage {
         driver.findElement(passwordField).sendKeys(password);
         driver.findElement(loginButton).click();
     }
-    public boolean isLoginSuccessful() {
-        return driver.getCurrentUrl().contains("inventory");
-    }
     public boolean isErrorDisplayed() {
         return driver.findElement(errorMessage).isDisplayed();
     }
