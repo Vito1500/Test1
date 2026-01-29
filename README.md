@@ -61,7 +61,7 @@ dev — рабочая ветка
 Создан Pull Request из dev → master
 
 Файлы отчётов (target, allure-results, allure-report)  
-исключены через .gitignore
+исключены через .gitignore  
 
 Репозиторий  
 https://github.com/Vito1500/Test1
