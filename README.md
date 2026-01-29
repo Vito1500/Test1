@@ -23,25 +23,25 @@ https://www.saucedemo.com/
 5. Логин пользователем performance_glitch_user
 (проверка корректного перехода с возможной задержкой)
 
-Архитектура проекта
+Архитектура проекта:
 Используется Page Object Model (POM):
-src
- test
-    java
-      pages        // Page Objects
-      tests        // JUnit тесты
-      utils        // WebDriver setup
+src;
+ test;
+    java;
+      pages        // Page Objects;
+      tests        // JUnit тесты;
+      utils        // WebDriver setup;
 
-Запуск тестов
+Запуск тестов:
 
-Тесты запускаются через IntelliJ IDEA с использованием встроенного Maven (Bundled Maven) ==>
+Тесты запускаются через IntelliJ IDEA с использованием встроенного Maven (Bundled Maven):
 
-1.Открыть проект в IntelliJ IDEA
+1. Открыть проект в IntelliJ IDEA
 2. Убедиться, что выбран JDK 17
 3. Открыть окно Maven
 4. Запустить:   Lifecycle → test
 
-Allure отчётность
+Allure отчётность:
 
 После запуска тестов:
 
@@ -52,17 +52,17 @@ Allure отчётность
 3. Ознакомиться с отчётом по пройденным тестам
 
 
-Git workflow
+Git workflow:
 
-master — основная ветка
-dev — рабочая ветка
+master — основная ветка;
+dev — рабочая ветка;
 
-Разработка велась в dev
-Создан Pull Request из dev → master
+Разработка велась в dev;
+Создан Pull Request из dev → master;
 
 Файлы отчётов (target, allure-results, allure-report)
 исключены через .gitignore
 
-Репозиторий
+Репозиторий:
 https://github.com/Vito1500/Test1
      
